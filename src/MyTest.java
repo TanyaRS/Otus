@@ -4,7 +4,7 @@ public class MyTest {
     String[] qwestion = {"Кто умеет мяукать?", "у кого длинные уши?", "Кто умеет бегать"};
 
     String answerOption1 = "- Собака" + "\n" + "- Кошка" + "\n" + "- Петух";
-    String answerOption2 = "- Заяц" + "\n"+ "- Курица" +"\n" + "- Верблюд";
+    String answerOption2 = "- Заяц" + "\n"+ "- Курица" +"\n" + "- Коза";
     String answerOption3 = "- Змея"+"\n"+"- Собака"+"\n"+"- Гусеница";
 
     public void showDialog() {
