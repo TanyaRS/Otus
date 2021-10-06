@@ -11,16 +11,13 @@ public class Main {
 
         Question[] questions1 = {new Question("Кто умеет мяукать?",
                 "- Собака" + "\n" + "- Кошка" + "\n" + "- Петух",
-                "кошка")
-        };
-        Question[] questions2 = {new Question("у кого длинные уши?",
+                "кошка"),new Question("у кого длинные уши?",
                 "- Заяц" + "\n" + "- Курица" + "\n" + "- Коза",
-                "заяц")
-        };
-        Question[] questions3 = {new Question("Кто умеет бегать",
+                "заяц"),new Question("Кто умеет бегать",
                 "- Змея" + "\n" + "- Собака" + "\n" + "- Гусеница",
                 "Собака")
         };
+//
         for (Question question : questions1) {
             question.showQestion();
             question.showAnswerOption();
@@ -29,23 +26,7 @@ public class Main {
                 x += 1;
             }
         }
-        for (Question question : questions2) {
-            question.showQestion();
-            question.showAnswerOption();
-            String answer2 = sc.nextLine();
-            if (question.isCorrectAnswers(answer2)) {
-                x += 1;
-            }
-        }
-        for (Question question : questions3) {
-            question.showQestion();
-            question.showAnswerOption();
-            String answer3 = sc.nextLine();
-            if (question.isCorrectAnswers(answer3)) {
-                x += 1;
-            }
-        }
-
+//
         System.out.println("Количество правильных ответов:" + x);
     }
     }
